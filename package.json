@@ -1,0 +1,21 @@
+{
+  "name": "babeltest",
+  "version": "0.1.0",
+  "description": "For fuckin internet explorer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babel": "./node_modules/.bin/babel src --out-dir dist"
+  },
+  "keywords": [
+    "ie",
+    "babel"
+  ],
+  "author": "kamesuke42",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.5",
+    "@babel/preset-env": "^7.16.5"
+  }
+}
